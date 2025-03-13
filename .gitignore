@@ -2,5 +2,6 @@
 *.csv
 *.log
 *.html
+.DS_Store
 /certificates
 /virtual_env
