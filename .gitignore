@@ -1,0 +1,6 @@
+*.json
+*.csv
+*.log
+*.html
+/certificates
+/virtual_env

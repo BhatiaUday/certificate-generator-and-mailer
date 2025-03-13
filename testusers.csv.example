@@ -1,0 +1,4 @@
+name,email,any_other_field,Doesnt_matter,it_pick_only_name_and_email
+Uday Bhatia,mail1@gmail.com,1,2,3
+Uday Bhatia,mail2@gmail.com,1,2,3
+Uday Bhatia,mail3@gmail.com,1,2,3

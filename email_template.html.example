@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Participation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .abstract-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.6;
+        }
+        .shape:nth-child(1) { width: 150px; height: 150px; background: #4285F4; top: 10%; left: 5%; }
+        .shape:nth-child(2) { width: 100px; height: 100px; background: #34A853; top: 30%; right: 10%; }
+        .shape:nth-child(3) { width: 120px; height: 120px; background: #FBBC05; bottom: 20%; left: 15%; }
+        .shape:nth-child(4) { width: 180px; height: 180px; background: #EA4335; bottom: 5%; right: 5%; }
+        
+        .container {
+            max-width: 700px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            margin: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .header img {
+            width: 120px;
+            margin-right: 20px;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #4285F4;
+        }
+        .content {
+            font-size: 18px;
+            color: #333;
+            margin-top: 30px;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #EA4335;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        .event-title {
+            color: #34A853;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 16px;
+            color: #555;
+            font-weight: bold;
+        }
+        .survey-link {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #1A73E8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="abstract-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.gdscnsut.com/Assets2/Images/DSC-Logo.png" alt="GDSC Logo">
+            <div class="title">GDSC NSUT</div>
+        </div>
+        <div class="content">
+            <p>Dear <span class="highlight">NAME_PLACEHOLDER</span>,</p>
+            <p>We are pleased to present you with this certificate for successfully attending the event:</p>
+            <p class="event-title">Fundamentals of Deep Learning and Its Application for Security</p>
+            <p>Your participation and dedication are truly appreciated. We hope this event has provided you with valuable knowledge and insights.</p>
+            <p>The certificate is attached to this email for your reference.</p>
+            <p>We would love to hear your feedback! Please take a moment to fill out our survey:</p>
+            <p class="survey-link"><a href="https://www.instagram.com/udaybhatia7" target="_blank">Click here to complete the survey</a></p>
+            <p>Keep learning and keep growing!</p>
+        </div>
+        <div class="footer">
+            Regards, <br>
+            <strong>Google Developer Student Clubs - NSUT</strong>
+        </div>
+    </div>
+</body>
+</html>

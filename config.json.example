@@ -1,0 +1,15 @@
+{
+  "csv_path": "/Users/udaybhatia/Developer/cert/testusers.csv.example",
+  "ppt_template_path": "/Users/udaybhatia/Developer/cert/certificate_template.pptx",
+  "html_template_path": "/Users/udaybhatia/Developer/cert/email_template.html.example",
+  "output_dir": "/Users/udaybhatia/Developer/cert/certificates",
+  "email_subject": "Your Certificate of Completion of XYZ Course",
+  "ilovepdf_public_key": "",
+  "ilovepdf_secret_key": "",
+  "smtp": {
+    "email": "YOUR_EMAIL",
+    "password": "APP_PASSWORD",
+    "server": "smtp.gmail.com",
+    "port": 465
+  }
+}
